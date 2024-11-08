@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <>
-      {navcontext.map((currValue, index, arr) => {
+      {navcontext.map((currValue, index) => {
         return <h1 key={index}>{currValue.Name}</h1>;
       })}
     </>

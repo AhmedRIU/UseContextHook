@@ -1,0 +1,43 @@
+.header {
+  padding: 10px;
+  background-color: #c4bcb3;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.img-logo {
+  width: 90px;
+}
+
+.nav-item > ul > li {
+  list-style-type: none;
+  margin: 0 10px;
+  font-size: 17px;
+}
+.nav-ul {
+  display: flex;
+}
+.search-bar {
+  padding: 10px;
+}
+.body {
+  background-color: #c4bcb3;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.resta {
+  border: 1px solid black;
+  width: 200px;
+  height: 300px;
+  padding: 2px;
+  background-color: #c4bcb3;
+}
+.res-img {
+  width: 100%;
+  height: 150px;
+}
+.res-card {
+  display: flex;
+  flex-wrap: wrap;
+}
